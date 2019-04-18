@@ -20,13 +20,13 @@ seminar/
 
 # メンバー
 ## プル用メンバー追記テスト
-test member 1 
-test member 2 
-test member 3 
-test member 4 
-test member 5 
-test member 6 
-test member 7 
-test member 8 
-test member 9 
-test member 10 
+test member 1  
+test member 2  
+test member 3  
+test member 4  
+test member 5  
+test member 6  
+test member 7  
+test member 8  
+test member 9  
+test member 10  
