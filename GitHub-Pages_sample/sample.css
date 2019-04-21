@@ -1,0 +1,30 @@
+body {
+    font-family: "Klee","クレー";
+}
+h1 {
+    color: blue;
+}
+#parag {
+    font-size: 20px; 
+}
+#demo { 
+    font-size: 30px; 
+    color: red;
+}
+.input{
+    width: 300pt;
+    height:20pt;
+}
+
+
+.box21{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#5f574b, #221208);
+    background: -webkit-linear-gradient(#ffffff, #2e3a52);
+    background: linear-gradient(to right, #fafffd, #1f835d);
+    color: rgb(0, 0, 0);
+}
+.box21 p {
+    margin: 0; 
+    padding: 0;
+}

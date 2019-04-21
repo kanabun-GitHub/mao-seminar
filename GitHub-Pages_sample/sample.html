@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>GitHub Pages の公開用デモ - Vue.js 利用 - </title>
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="sample.css">
+
+<div class="box21">
+
+<h1>GitHub Pages で Vue.js のデモ</h1>
+
+<div id="parag">
+  <p><strong>入力内容が赤字で即座に反映されます。</strong></p>
+</div>
+
+<div id="demo">
+    <p>{{message}}</p>
+    <input class="input" v-model="message">
+</div>
+
+</div>
+
+<!-- vue.js のパスは CDN で最新版を適用 -->
+<!-- "vue.min.js" があれば動作OK -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+var demo = new Vue({
+    el: '#demo',
+    data: {
+        message: 'Hello GitHub Pages & Vue.js !'
+    }
+})
+</script>
+</body>
+</html>
