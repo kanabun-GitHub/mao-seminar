@@ -30,3 +30,6 @@ test member 7
 test member 8  
 test member 9  
 test member 10  
+
+# フェッチ用
+リモートからリモート追跡ブランチのみに反映（フェッチ）させる練習用
